@@ -1,6 +1,6 @@
 import yfinance as yf
 
-ticker = "AAPL"
+ticker = "APPLE"
 df = yf.download(ticker, period="1y")
 
 print(df.head())
