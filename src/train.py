@@ -14,7 +14,7 @@ from model import StockNN
 TICKER = "SAATVIKGL.NS"
 WINDOW_SIZE = 5
 NUM_FEATURES = 3        # [return, ma_distance, volatility]
-EPOCHS = 1000
+EPOCHS = 200
 LEARNING_RATE = 0.001
 PERIOD = "60d"
 # --------------------------------------
