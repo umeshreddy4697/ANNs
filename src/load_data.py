@@ -59,7 +59,7 @@ if __name__ == "__main__":
     prices = load_close_prices(ticker)
     returns = load_returns(ticker)
     features = load_feature_matrix(ticker)
-    print("hello print this")
+    
     print("Ticker:", ticker)
     print("Last 5 prices:", prices[-5:])
     print("Last 5 returns:", returns[-5:])
